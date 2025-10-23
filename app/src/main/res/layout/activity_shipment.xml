@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#000000"
+        app:title="Solicitud de Envío"
+        app:titleTextColor="#FF9800" />
+
+    <!-- Contenido del formulario -->
+    <TextView
+        android:id="@+id/tvFormulario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formulario de solicitud de envío de encomienda"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+    <!-- Botón Compartir -->
+    <Button
+        android:id="@+id/btnCompartir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartir formulario"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF9800"
+        android:layout_marginTop="30dp"
+        android:padding="10dp" />
+</LinearLayout>

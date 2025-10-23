@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Ver características -->
+    <item
+        android:id="@+id/action_characteristics"
+        android:title="Características"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="ifRoom" />
+
+    <!-- Crear notificación -->
+    <item
+        android:id="@+id/action_notification"
+        android:title="Notificación"
+        android:icon="@android:drawable/ic_menu_send"
+        app:showAsAction="ifRoom" />
+</menu>
